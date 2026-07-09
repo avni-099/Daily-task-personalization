@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
 
-const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1]?.toLowerCase() ?? "daily_task_personalization";
+const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1] ?? "Daily-task-personalization";
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => ({
