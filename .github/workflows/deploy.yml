@@ -7,6 +7,9 @@ on:
 permissions:
   contents: write
 
+env:
+  VITE_CONVEX_URL: ${{ vars.VITE_CONVEX_URL }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
